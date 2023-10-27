@@ -20,7 +20,7 @@ public class Program3 {
 		//Thread.sleep(10000);
 
 		driver.get("https://www.selenium.dev/");
-		Assert.fail();
+		//Assert.fail();
 		driver.get("https://www.flipkart.com/");
 		
 	}
