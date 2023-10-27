@@ -16,7 +16,9 @@ public class Program3 {
 		System.out.println("This is demo3 method");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		Thread.sleep(10000);
+
+		//Thread.sleep(10000);
+
 		driver.get("https://www.selenium.dev/");
 		Assert.fail();
 		driver.get("https://www.flipkart.com/");
