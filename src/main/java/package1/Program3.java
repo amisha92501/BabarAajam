@@ -16,7 +16,12 @@ public class Program3 {
 		System.out.println("This is demo3 method");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
+		
+		System.out.println("Thread sleep removed");
 
+		System.out.println("Thread sleep removed");
+
+		System.out.println("Thread sleep removed");
 		//Thread.sleep(10000);
 
 		driver.get("https://www.selenium.dev/");
