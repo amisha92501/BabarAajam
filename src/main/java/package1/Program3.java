@@ -22,6 +22,12 @@ public class Program3 {
 		System.out.println("Thread sleep removed");
 
 		System.out.println("Thread sleep removed");
+		
+		System.out.println("Gupta");
+
+		System.out.println("Gupta");
+
+		System.out.println("Gupta");
 		//Thread.sleep(10000);
 
 		driver.get("https://www.selenium.dev/");
