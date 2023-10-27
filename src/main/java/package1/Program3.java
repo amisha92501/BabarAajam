@@ -2,6 +2,7 @@ package package1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Program3 {
@@ -15,8 +16,9 @@ public class Program3 {
 		System.out.println("This is demo3 method");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.selenium.dev/");
 		Thread.sleep(10000);
+		driver.get("https://www.selenium.dev/");
+		Assert.fail();
 		driver.get("https://www.flipkart.com/");
 		
 	}
